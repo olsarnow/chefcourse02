@@ -271,24 +271,24 @@
         "1G": "0kB"
       },
       "total": "929992kB",
-      "free": "98344kB",
-      "available": "382376kB",
-      "buffers": "3236kB",
-      "cached": "367980kB",
-      "active": "334196kB",
-      "inactive": "174664kB",
-      "dirty": "0kB",
+      "free": "212780kB",
+      "available": "405404kB",
+      "buffers": "36kB",
+      "cached": "296980kB",
+      "active": "270268kB",
+      "inactive": "165420kB",
+      "dirty": "4kB",
       "writeback": "0kB",
-      "anon_pages": "137644kB",
-      "mapped": "29840kB",
-      "slab": "161792kB",
-      "slab_reclaimable": "94092kB",
-      "slab_unreclaim": "67700kB",
-      "page_tables": "6124kB",
+      "anon_pages": "138720kB",
+      "mapped": "19360kB",
+      "slab": "142008kB",
+      "slab_reclaimable": "71364kB",
+      "slab_unreclaim": "70644kB",
+      "page_tables": "6152kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "464996kB",
-      "committed_as": "398900kB",
+      "committed_as": "405656kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "83944kB",
       "vmalloc_chunk": "34359652012kB",
@@ -485,16 +485,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "111125382",
-              "packets": "540296",
+              "bytes": "180429236",
+              "packets": "870982",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "429637895",
-              "packets": "596625",
+              "bytes": "669260705",
+              "packets": "950865",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -514,10 +514,10 @@
     "platform": "centos",
     "platform_version": "7.6.1810",
     "platform_family": "rhel",
-    "uptime_seconds": 54372,
-    "uptime": "15 hours 06 minutes 12 seconds",
-    "idletime_seconds": 53600,
-    "idletime": "14 hours 53 minutes 20 seconds",
+    "uptime_seconds": 87692,
+    "uptime": "1 day 00 hours 21 minutes 32 seconds",
+    "idletime_seconds": 86363,
+    "idletime": "23 hours 59 minutes 23 seconds",
     "dmi": {
       "dmidecode_version": "3.1",
       "smbios_version": "2.3",
@@ -2230,6 +2230,13 @@
     },
     "languages": {
       "c": {
+        "gcc": {
+          "target": "x86_64-redhat-linux",
+          "configured_with": "../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux",
+          "thread_model": "posix",
+          "description": "gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ",
+          "version": "4.8.5"
+        },
         "glibc": {
           "version": "2.17",
           "description": "GNU C Library (GNU libc) stable release version 2.17, by Roland McGrath et al."
@@ -2247,7 +2254,21 @@
         "builddate": "Jun 20 2019, 20:27:34"
       },
       "ruby": {
-
+        "platform": "x86_64-linux",
+        "version": "2.0.0",
+        "release_date": "2015-12-16",
+        "target": "x86_64-redhat-linux-gnu",
+        "target_cpu": "x86_64",
+        "target_vendor": "redhat",
+        "target_os": "linux",
+        "host": "x86_64-redhat-linux-gnu",
+        "host_cpu": "x86_64",
+        "host_os": "linux-gnu",
+        "host_vendor": "redhat",
+        "bin_dir": "/usr/bin",
+        "ruby_bin": "/usr/bin/ruby",
+        "gems_dir": "/usr/local/share/gems",
+        "gem_bin": "/usr/bin/gem"
       }
     },
     "chef_packages": {
@@ -2843,12 +2864,12 @@
       "by_device": {
         "/dev/sda2": {
           "kb_size": "30929148",
-          "kb_used": "2356196",
-          "kb_available": "28572952",
-          "percent_used": "8%",
+          "kb_used": "2527208",
+          "kb_available": "28401940",
+          "percent_used": "9%",
           "total_inodes": "15472128",
-          "inodes_used": "98370",
-          "inodes_available": "15373758",
+          "inodes_used": "110953",
+          "inodes_available": "15361175",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -3154,12 +3175,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "30929148",
-          "kb_used": "2356196",
-          "kb_available": "28572952",
-          "percent_used": "8%",
+          "kb_used": "2527208",
+          "kb_available": "28401940",
+          "percent_used": "9%",
           "total_inodes": "15472128",
-          "inodes_used": "98370",
-          "inodes_available": "15373758",
+          "inodes_used": "110953",
+          "inodes_available": "15361175",
           "inodes_percent_used": "1%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -3215,12 +3236,12 @@
         },
         "/run": {
           "kb_size": "464996",
-          "kb_used": "6788",
-          "kb_available": "458208",
-          "percent_used": "2%",
+          "kb_used": "12604",
+          "kb_available": "452392",
+          "percent_used": "3%",
           "total_inodes": "116249",
-          "inodes_used": "576",
-          "inodes_available": "115673",
+          "inodes_used": "577",
+          "inodes_available": "115672",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3637,13 +3658,13 @@
         "/dev/sda2,/": {
           "device": "/dev/sda2",
           "kb_size": "30929148",
-          "kb_used": "2356196",
-          "kb_available": "28572952",
-          "percent_used": "8%",
+          "kb_used": "2527208",
+          "kb_available": "28401940",
+          "percent_used": "9%",
           "mount": "/",
           "total_inodes": "15472128",
-          "inodes_used": "98370",
-          "inodes_available": "15373758",
+          "inodes_used": "110953",
+          "inodes_available": "15361175",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -3699,13 +3720,13 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "464996",
-          "kb_used": "6788",
-          "kb_available": "458208",
-          "percent_used": "2%",
+          "kb_used": "12604",
+          "kb_available": "452392",
+          "percent_used": "3%",
           "mount": "/run",
           "total_inodes": "116249",
-          "inodes_used": "576",
-          "inodes_available": "115673",
+          "inodes_used": "577",
+          "inodes_available": "115672",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4229,7 +4250,7 @@
       "search-state-factory": "/usr/local/share/factory/var",
       "search-configuration": "/root/.config"
     },
-    "ohai_time": 1566904875.8036792,
+    "ohai_time": 1566938195.5301223,
     "packages": {
       "selinux-policy": {
         "epoch": "0",
@@ -4357,6 +4378,13 @@
         "installdate": "1562611755",
         "arch": "x86_64"
       },
+      "ruby-irb": {
+        "epoch": "0",
+        "version": "2.0.0.648",
+        "release": "35.el7_6",
+        "installdate": "1566937213",
+        "arch": "noarch"
+      },
       "procps-ng": {
         "epoch": "0",
         "version": "3.3.10",
@@ -4369,6 +4397,13 @@
         "version": "5.1",
         "release": "5.el7",
         "installdate": "1562611761",
+        "arch": "x86_64"
+      },
+      "rubygem-psych": {
+        "epoch": "0",
+        "version": "2.0.0",
+        "release": "35.el7_6",
+        "installdate": "1566937214",
         "arch": "x86_64"
       },
       "cryptsetup-libs": {
@@ -4385,11 +4420,25 @@
         "installdate": "1562611762",
         "arch": "x86_64"
       },
+      "ruby-devel": {
+        "epoch": "0",
+        "version": "2.0.0.648",
+        "release": "35.el7_6",
+        "installdate": "1566937412",
+        "arch": "x86_64"
+      },
       "libsepol": {
         "epoch": "0",
         "version": "2.5",
         "release": "10.el7",
         "installdate": "1562611762",
+        "arch": "x86_64"
+      },
+      "kernel-headers": {
+        "epoch": "0",
+        "version": "3.10.0",
+        "release": "957.27.2.el7",
+        "installdate": "1566937445",
         "arch": "x86_64"
       },
       "elfutils-default-yama-scope": {
@@ -5316,6 +5365,13 @@
         "installdate": "1562611760",
         "arch": "x86_64"
       },
+      "ruby-libs": {
+        "epoch": "0",
+        "version": "2.0.0.648",
+        "release": "35.el7_6",
+        "installdate": "1566937211",
+        "arch": "x86_64"
+      },
       "util-linux": {
         "epoch": "0",
         "version": "2.23.2",
@@ -5328,6 +5384,13 @@
         "version": "5.9",
         "release": "14.20130511.el7_4",
         "installdate": "1562611760",
+        "arch": "x86_64"
+      },
+      "ruby": {
+        "epoch": "0",
+        "version": "2.0.0.648",
+        "release": "35.el7_6",
+        "installdate": "1566937213",
         "arch": "x86_64"
       },
       "kpartx": {
@@ -5344,6 +5407,13 @@
         "installdate": "1562611761",
         "arch": "x86_64"
       },
+      "rubygem-json": {
+        "epoch": "0",
+        "version": "1.7.7",
+        "release": "35.el7_6",
+        "installdate": "1566937214",
+        "arch": "x86_64"
+      },
       "device-mapper-libs": {
         "epoch": "7",
         "version": "1.02.149",
@@ -5358,6 +5428,13 @@
         "installdate": "1562611761",
         "arch": "x86_64"
       },
+      "rubygem-rdoc": {
+        "epoch": "0",
+        "version": "4.0.0",
+        "release": "35.el7_6",
+        "installdate": "1566937215",
+        "arch": "noarch"
+      },
       "dracut": {
         "epoch": "0",
         "version": "033",
@@ -5370,6 +5447,13 @@
         "version": "2.4.46",
         "release": "13.el7",
         "installdate": "1562611762",
+        "arch": "x86_64"
+      },
+      "rubygem-io-console": {
+        "epoch": "0",
+        "version": "0.4.2",
+        "release": "35.el7_6",
+        "installdate": "1566937216",
         "arch": "x86_64"
       },
       "elfutils-libs": {
@@ -5386,6 +5470,13 @@
         "installdate": "1562611762",
         "arch": "x86_64"
       },
+      "mpfr": {
+        "epoch": "0",
+        "version": "3.1.1",
+        "release": "4.el7",
+        "installdate": "1566937440",
+        "arch": "x86_64"
+      },
       "dbus-libs": {
         "epoch": "1",
         "version": "1.10.24",
@@ -5400,6 +5491,13 @@
         "installdate": "1562611763",
         "arch": "x86_64"
       },
+      "cpp": {
+        "epoch": "0",
+        "version": "4.8.5",
+        "release": "36.el7_6.2",
+        "installdate": "1566937443",
+        "arch": "x86_64"
+      },
       "dbus": {
         "epoch": "1",
         "version": "1.10.24",
@@ -5412,6 +5510,13 @@
         "version": "8.32",
         "release": "17.el7",
         "installdate": "1562611763",
+        "arch": "x86_64"
+      },
+      "glibc-headers": {
+        "epoch": "0",
+        "version": "2.17",
+        "release": "260.el7_6.6",
+        "installdate": "1566937451",
         "arch": "x86_64"
       },
       "satyr": {
@@ -6501,6 +6606,13 @@
         "installdate": "1566124602",
         "arch": "x86_64"
       },
+      "gcc": {
+        "epoch": "0",
+        "version": "4.8.5",
+        "release": "36.el7_6.2",
+        "installdate": "1566937454",
+        "arch": "x86_64"
+      },
       "usermode": {
         "epoch": "0",
         "version": "1.111",
@@ -7063,6 +7175,13 @@
         "installdate": "1562611760",
         "arch": "x86_64"
       },
+      "rubygem-bigdecimal": {
+        "epoch": "0",
+        "version": "1.2.0",
+        "release": "35.el7_6",
+        "installdate": "1566937213",
+        "arch": "x86_64"
+      },
       "device-mapper": {
         "epoch": "7",
         "version": "1.02.149",
@@ -7076,6 +7195,13 @@
         "release": "1.el7_5",
         "installdate": "1562611761",
         "arch": "x86_64"
+      },
+      "rubygems": {
+        "epoch": "0",
+        "version": "2.0.14.1",
+        "release": "35.el7_6",
+        "installdate": "1566937215",
+        "arch": "noarch"
       },
       "kmod": {
         "epoch": "0",
@@ -7091,11 +7217,25 @@
         "installdate": "1562611762",
         "arch": "x86_64"
       },
+      "libmpc": {
+        "epoch": "0",
+        "version": "1.0.1",
+        "release": "3.el7",
+        "installdate": "1566937441",
+        "arch": "x86_64"
+      },
       "libffi": {
         "epoch": "0",
         "version": "3.0.13",
         "release": "18.el7",
         "installdate": "1562611763",
+        "arch": "x86_64"
+      },
+      "glibc-devel": {
+        "epoch": "0",
+        "version": "2.17",
+        "release": "260.el7_6.6",
+        "installdate": "1566937451",
         "arch": "x86_64"
       },
       "libreport-python": {
@@ -7887,7 +8027,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 22954,
+      "_AVPHYS_PAGES": 48308,
       "_NPROCESSORS_CONF": 1,
       "_NPROCESSORS_ONLN": 1,
       "_PHYS_PAGES": 232498,
