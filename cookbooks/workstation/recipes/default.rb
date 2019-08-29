@@ -5,3 +5,4 @@
 # Copyright:: 2019, The Authors, All Rights Reserved.
 
 include_recipe 'workstation::setup'
+include_recipe 'workstation::lang'
