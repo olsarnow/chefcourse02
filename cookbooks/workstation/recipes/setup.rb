@@ -11,20 +11,14 @@ end
 
 package 'ntp'
 
-
-file '/etc/motd' do
-  content "This server is the property of Olaf Sarnow
-HOSTNAME:#{node['hostname']}
-IP: #{node['ipaddress']}
-CPU: #{node['cpu']['0']['mhz']}
-MEMORY: #{node['memory']['total']}
-"
+template '/etc/motd' do
+  source 'motd.erb'
   action :create
   owner 'root'
   group 'root'
+  mode '0644'
 end
 
-
 service 'ntpd' do
-  action [ :enable, :start ]
+  action %i[enable start]
 end
