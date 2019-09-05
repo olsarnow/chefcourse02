@@ -255,24 +255,24 @@
         "1G": "0kB"
       },
       "total": "929992kB",
-      "free": "106308kB",
-      "available": "371260kB",
+      "free": "129720kB",
+      "available": "345304kB",
       "buffers": "3172kB",
-      "cached": "363084kB",
-      "active": "338156kB",
-      "inactive": "167956kB",
+      "cached": "346260kB",
+      "active": "360472kB",
+      "inactive": "129784kB",
       "dirty": "0kB",
       "writeback": "4kB",
-      "anon_pages": "139900kB",
-      "mapped": "23656kB",
-      "slab": "146832kB",
-      "slab_reclaimable": "89264kB",
-      "slab_unreclaim": "57568kB",
-      "page_tables": "10432kB",
+      "anon_pages": "140868kB",
+      "mapped": "25492kB",
+      "slab": "140692kB",
+      "slab_reclaimable": "82332kB",
+      "slab_unreclaim": "58360kB",
+      "page_tables": "11424kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "464996kB",
-      "committed_as": "424384kB",
+      "committed_as": "458112kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "83944kB",
       "vmalloc_chunk": "34359651328kB",
@@ -451,16 +451,16 @@
           "lo": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "10315",
-              "packets": "88",
+              "bytes": "14878",
+              "packets": "128",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "10315",
-              "packets": "88",
+              "bytes": "14878",
+              "packets": "128",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -469,16 +469,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "398355181",
-              "packets": "1897945",
+              "bytes": "1450203810",
+              "packets": "6897096",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "1130055010",
-              "packets": "1862718",
+              "bytes": "3911421754",
+              "packets": "6619165",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -498,10 +498,10 @@
     "platform": "centos",
     "platform_version": "7.6.1810",
     "platform_family": "rhel",
-    "uptime_seconds": 195026,
-    "uptime": "2 days 06 hours 10 minutes 26 seconds",
-    "idletime_seconds": 192666,
-    "idletime": "2 days 05 hours 31 minutes 06 seconds",
+    "uptime_seconds": 711302,
+    "uptime": "8 days 05 hours 35 minutes 02 seconds",
+    "idletime_seconds": 703731,
+    "idletime": "8 days 03 hours 28 minutes 51 seconds",
     "dmi": {
       "dmidecode_version": "3.1",
       "smbios_version": "2.3",
@@ -2764,6 +2764,12 @@
           "members": [
 
           ]
+        },
+        "usergroup": {
+          "gid": 1002,
+          "members": [
+
+          ]
         }
       }
     },
@@ -2874,12 +2880,12 @@
       "by_device": {
         "/dev/sda2": {
           "kb_size": "30929148",
-          "kb_used": "2937828",
-          "kb_available": "27991320",
+          "kb_used": "2968056",
+          "kb_available": "27961092",
           "percent_used": "10%",
           "total_inodes": "15472128",
-          "inodes_used": "124931",
-          "inodes_available": "15347197",
+          "inodes_used": "124984",
+          "inodes_available": "15347144",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -3180,12 +3186,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "30929148",
-          "kb_used": "2937828",
-          "kb_available": "27991320",
+          "kb_used": "2968056",
+          "kb_available": "27961092",
           "percent_used": "10%",
           "total_inodes": "15472128",
-          "inodes_used": "124931",
-          "inodes_available": "15347197",
+          "inodes_used": "124984",
+          "inodes_available": "15347144",
           "inodes_percent_used": "1%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -3241,12 +3247,12 @@
         },
         "/run": {
           "kb_size": "464996",
-          "kb_used": "18416",
-          "kb_available": "446580",
-          "percent_used": "4%",
+          "kb_used": "47496",
+          "kb_available": "417500",
+          "percent_used": "11%",
           "total_inodes": "116249",
-          "inodes_used": "565",
-          "inodes_available": "115684",
+          "inodes_used": "570",
+          "inodes_available": "115679",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -3663,13 +3669,13 @@
         "/dev/sda2,/": {
           "device": "/dev/sda2",
           "kb_size": "30929148",
-          "kb_used": "2937828",
-          "kb_available": "27991320",
+          "kb_used": "2968056",
+          "kb_available": "27961092",
           "percent_used": "10%",
           "mount": "/",
           "total_inodes": "15472128",
-          "inodes_used": "124931",
-          "inodes_available": "15347197",
+          "inodes_used": "124984",
+          "inodes_available": "15347144",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -3725,13 +3731,13 @@
         "tmpfs,/run": {
           "device": "tmpfs",
           "kb_size": "464996",
-          "kb_used": "18416",
-          "kb_available": "446580",
-          "percent_used": "4%",
+          "kb_used": "47496",
+          "kb_available": "417500",
+          "percent_used": "11%",
           "mount": "/run",
           "total_inodes": "116249",
-          "inodes_used": "565",
-          "inodes_available": "115684",
+          "inodes_used": "570",
+          "inodes_available": "115679",
           "inodes_percent_used": "1%",
           "fs_type": "tmpfs",
           "mount_options": [
@@ -4239,7 +4245,7 @@
       "search-state-factory": "/usr/local/share/factory/var",
       "search-configuration": "/root/.config"
     },
-    "ohai_time": 1567185198.1953785,
+    "ohai_time": 1567701474.126545,
     "packages": {
       "selinux-policy": {
         "epoch": "0",
@@ -8737,7 +8743,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 25436,
+      "_AVPHYS_PAGES": 31536,
       "_NPROCESSORS_CONF": 1,
       "_NPROCESSORS_ONLN": 1,
       "_PHYS_PAGES": 232498,
@@ -8997,18 +9003,19 @@
     "name": "chefdk.lew25g4zmoiujiiw4iquu1y1yf.ax.internal.cloudapp.net",
     "chef_environment": "_default",
     "recipes": [
-      "apache",
-      "apache::default",
-      "apache::server"
+      "workstation",
+      "workstation::default",
+      "workstation::setup",
+      "workstation::lang"
     ],
     "expanded_run_list": [
-      "apache::default"
+      "workstation::default"
     ],
     "roles": [
 
     ]
   },
   "run_list": [
-    "recipe[apache]"
+    "recipe[workstation]"
   ]
 }

@@ -25,3 +25,17 @@ end
 service 'ntpd' do
   action %i[enable start]
 end
+
+user 'user1' do
+  comment 'test user'
+  uid '5000'
+  home '/home/user1'
+  shell '/sbin/nologin'
+end
+
+group 'usergroup' do
+  members 'user1' 
+  append true
+end
+
+
